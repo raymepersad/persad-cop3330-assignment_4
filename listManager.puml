@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+class todoList {
+    todoList(topic:string)
+
+    display()
+    assignTask(taskName:String, employee:string)
+    assignDeadline(taskName:string, dueDate:Date)
+
+    createTask()
+    markAsDone(taskName:String)
+    removeTask((taskName:String)
+    renameTask(oldName:String, newName:String)
+   }
+
+class task {
+    name:String
+    deadLine: Date
+    employee:String
+
+    Task(name:String)
+    setName(name:String)
+    setDeadline(date:String)
+    setEmployee(name:String)
+    display()
+}
+@enduml

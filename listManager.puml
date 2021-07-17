@@ -1,3 +1,9 @@
+/*
+ *  UCF COP3330 Summer 2021 Assignment 4 Solution
+ *  Copyright 2021 RAYME PERSAD
+ */
+
+
 @startuml
 'https://plantuml.com/sequence-diagram
 
@@ -5,10 +11,10 @@ class todoList {
     todoList(topic:string)
 
     display()
-    assignTask(taskName:String, employee:string)
-    assignDeadline(taskName:string, dueDate:Date)
+    assignTask -> (taskName:String, employee:string)
+    assignDeadline ->(taskName:string, dueDate:Date)
 
-    createTask()
+    createTask() ->assignTask
     markAsDone(taskName:String)
     removeTask((taskName:String)
     renameTask(oldName:String, newName:String)

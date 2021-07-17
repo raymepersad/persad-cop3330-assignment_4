@@ -5,52 +5,50 @@
 
 package ucf.assignments;
 
-import javafx.event.ActionEvent
-
 public class todoController {
-    public void addNewTodoList(Actionevent actionEvent) {
+    public void addNewTodoList() {
     }
 
-    public void removeExistingTodoList(Actionevent actionEvent) {
+    public void removeExistingTodoList() {
     }
 
-    public void editExistingListTitle(Actionevent actionEvent) {
+    public void editExistingListTitle() {
     }
 
-    public void addNewItem(Actionevent actionEvent) {
+    public void addNewItem() {
     }
 
-    public void removeExistingItem(Actionevent actionEvent) {
+    public void removeExistingItem() {
     }
 
-    public void editItemDescriptionExistingTodoList(Actionevent actionEvent) {
+    public void editItemDescriptionExistingTodoList() {
     }
 
-    public void editItemDueDateExistingTodoList(Actionevent actionEvent) {
+    public void editItemDueDateExistingTodoList() {
     }
 
-    public void markItemCompleteExistingTodoList(Actionevent actionEvent) {
+    public void markItemCompleteExistingTodoList() {
     }
 
-    public void displayExistingItemsTodoList(Actionevent actionEvent) {
+    public void displayExistingItemsTodoList() {
     }
 
-    public void displayIncompletedItemsTodoList(Actionevent actionEvent) {
+    public void displayIncompletedItemsTodoList() {
     }
 
-    public void displayComlpetedTodoList(Actionevent actionEvent) {
+    public void displayComlpetedTodoList() {
     }
 
-    public void saveItemsSingleListToExternalStorage(Actionevent actionEvent) {
+    public void saveItemsSingleListToExternalStorage() {
     }
 
-    public void saveAllItemsToExternalStorage(Actionevent actionEvent) {
+    public void saveAllItemsToExternalStorage() {
     }
 
-    public void loadSingleListFromExternalStorage(Actionevent actionEvent) {
+    public void loadSingleListFromExternalStorage() {
     }
 
-    public void loadMultipleListsFromExternalStorage(Actionevent actionEvent) {
+    public void loadMultipleListsFromExternalStorage() {
     }
 }
 
